@@ -8,7 +8,9 @@ const nextConfig = {
         name: 'shop_app',
         remotes: {},
         filename: 'static/chunks/remoteEntry.js',
-        exposes: {},
+        exposes: {
+          './Products' : './src/components/Products',
+        },
         extraOptions: {
           debug: false, // `false` by default
           exposePages: false, // `false` by default
