@@ -11,6 +11,7 @@ const nextConfig = {
         exposes: {
           './Products' : './src/components/Products',
           './category' : './src/pages/category',
+          './books' : './src/pages/books',
         },
         extraOptions: {
           debug: false, // `false` by default
