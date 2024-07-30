@@ -10,6 +10,7 @@ const nextConfig = {
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
           './Products' : './src/components/Products',
+          './category' : './src/pages/category',
         },
         extraOptions: {
           debug: false, // `false` by default
